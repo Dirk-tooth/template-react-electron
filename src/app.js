@@ -1,9 +1,9 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-const App = require('./components/app.js');
+const Default = require('./components/default.js');
 
 ReactDOM.render(
-  <App />,
+  <Default />,
   document.getElementById('root'),
 );
