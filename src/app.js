@@ -1,9 +1,9 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-const Default = require('./components/default.js');
+const Nav = require('./components/nav.js');
 
 ReactDOM.render(
-  <Default />,
+  <Nav />,
   document.getElementById('root'),
 );
